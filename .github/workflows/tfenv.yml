@@ -9,5 +9,6 @@ jobs:
     - run: |
         tfenv -v
         tfenv use 1.1.1
+        echo 1.1.0 > .terraform-version
         terraform version
     
