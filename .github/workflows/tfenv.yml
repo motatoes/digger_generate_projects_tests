@@ -7,6 +7,6 @@ jobs:
     - uses: actions/checkout@v2
     - uses: rhythmictech/actions-setup-tfenv@v0.0.2
     - run: |
-      echo > 1.1.0 > .terraform-version
-      terraform version
+        echo > 1.1.0 > .terraform-version
+        terraform version
     
